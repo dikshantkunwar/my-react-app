@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1 {
+  color: yellow;
+}
+
+.App img {
+  width: 70%;
+}
+
+.App span {
+  padding: 50px;
 }
