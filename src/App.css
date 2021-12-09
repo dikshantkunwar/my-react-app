@@ -52,3 +52,15 @@
 .App span {
   padding: 50px;
 }
+
+.btncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.btncontainer button {
+  font-size: x-large;
+}

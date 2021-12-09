@@ -1,4 +1,5 @@
 import './App.css';
+import ButtonContainer from './components/ButtonContainer';
 import Description from './components/Description';
 import FileImage from './components/FileImage';
 import Heading from './components/Heading';
@@ -9,6 +10,9 @@ function App() {
       <Heading />
       <FileImage />
       <Description />
+
+      <ButtonContainer />
+
     </div>
   );
 }
