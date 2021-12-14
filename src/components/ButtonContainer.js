@@ -1,10 +1,10 @@
 import Button from "./Button"
-const ButtonContainer = () => {
+const ButtonContainer = (props) => {
   return (
     <div className="btncontainer">
-      <Button title="Flower" />
-      <Button title="Root" />
-      <Button title="Stem" />
+      <Button title="Flower" favType = {props.favType} setFavType={props.setFavType} />
+      <Button title="Root" favType = {props.favType} setFavType={props.setFavType} />
+      <Button title="Stem" favType = {props.favType} setFavType={props.setFavType} />
     </div>
     
   )
