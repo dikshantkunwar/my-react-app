@@ -3,9 +3,8 @@ const Button = (props) =>{
   const switchType = () => {
     setFavType(props.title)
   }
-
   return (
-    <button onClick={switchType}> {props.title}</button>
+    <button onClick={switchType} style={{margin: 5 + 'px'}}> {props.title}</button>
   )
 }
 

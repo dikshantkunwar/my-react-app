@@ -1,12 +1,13 @@
 import Button from "./Button"
 const ButtonContainer = (props) => {
+  const list = props.types.map(type => {
+    return (<Button title={type} favType={props.favType} setFavType={props.setFavType}> </Button>)
+  });
+
   return (
     <div className="btncontainer">
-      <Button title="Flower" favType = {props.favType} setFavType={props.setFavType} />
-      <Button title="Root" favType = {props.favType} setFavType={props.setFavType} />
-      <Button title="Stem" favType = {props.favType} setFavType={props.setFavType} />
+      { list }
     </div>
-    
   )
 }
 
